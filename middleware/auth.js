@@ -5,7 +5,7 @@ function checkAuth(req, res, next) {
 		return next()
 	// If the user is not logged in, redirect to /login
 	  } else {
-		res.redirect('/login');
+		res.redirect('/login')
 	  }
 }
 
